@@ -1,7 +1,7 @@
 # Politika privatnosti
 
-Verzija: 1.0.0  
-Poslednje ažuriranje: 2025-11-03
+Verzija: 1.0.1  
+Poslednje ažuriranje: 2026-02-06
 
 ## 1. Uvod
 Ova Politika privatnosti objašnjava kako „Jovović Shop” (u daljem tekstu: „mi”, „nas”, „naš”) prikuplja, koristi, čuva i štiti lične podatke korisnika aplikacije.
@@ -11,8 +11,9 @@ Ova Politika privatnosti objašnjava kako „Jovović Shop” (u daljem tekstu: 
 - Kontakt za zaštitu podataka: gsx.studi@gmail.com
 
 ## 3. Koje podatke prikupljamo
-- Podaci naloga: ime i prezime, email, lozinka (hash), broj telefona, adresa, grad, poštanski broj.
-- Tehnički podaci: IP adresa, tip uređaja, identifikatori uređaja, logovi o greškama i performansama.
+- Podaci naloga: ime i prezime, email, broj telefona, adresa, grad, poštanski broj, slika profila (ako je korisnik doda).
+- Podaci o autentifikaciji: ako koristite prijavu email/lozinka, lozinka se obrađuje u okviru Firebase Authentication servisa (ne čuvamo “plain text” lozinku u aplikaciji).
+- Tehnički podaci: tip uređaja, identifikatori uređaja/instalacije, logovi o greškama i performansama; IP adresa može biti evidentirana u logovima provajdera usluga (npr. Google/Firebase) kao deo standardnog logovanja infrastrukture.
 - Podaci o kupovini: artikli, iznosi, statusi porudžbina, istorija narudžbina i vaučeri.
 - Notifikacije: FCM token za slanje obaveštenja.
 
