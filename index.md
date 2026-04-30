@@ -1,7 +1,7 @@
 # Politika privatnosti
 
-Verzija: 1.0.1  
-Poslednje ažuriranje: 2026-02-06
+Verzija: 1.0.2  
+Poslednje ažuriranje: 2026-04-30
 
 ## 1. Uvod
 Ova Politika privatnosti objašnjava kako „Jovović Shop” (u daljem tekstu: „mi”, „nas”, „naš”) prikuplja, koristi, čuva i štiti lične podatke korisnika aplikacije.
@@ -15,6 +15,7 @@ Ova Politika privatnosti objašnjava kako „Jovović Shop” (u daljem tekstu: 
 - Podaci o autentifikaciji: ako koristite prijavu email/lozinka, lozinka se obrađuje u okviru Firebase Authentication servisa (ne čuvamo “plain text” lozinku u aplikaciji).
 - Tehnički podaci: tip uređaja, identifikatori uređaja/instalacije, logovi o greškama i performansama; IP adresa može biti evidentirana u logovima provajdera usluga (npr. Google/Firebase) kao deo standardnog logovanja infrastrukture.
 - Podaci o kupovini: artikli, iznosi, statusi porudžbina, istorija narudžbina i vaučeri.
+- Podaci o ponudama „cijena na upit”: identifikator proizvoda, ponuđena cijena, status i rok važenja ponude, identifikatori povezane konverzacije/poruka i tehnički identifikatori ponude.
 - Notifikacije: FCM token za slanje obaveštenja.
 
 ## 4. Pravna osnova obrade
@@ -26,12 +27,13 @@ Obradu vršimo na osnovu:
 ## 5. Svrhe obrade
 - kreiranje i održavanje korisničkog naloga;  
 - realizacija porudžbine i komunikacija statusa;  
+- kreiranje i upravljanje automatizovanim ponudama za proizvode sa režimom „cijena na upit”, uključujući zaštitu od zloupotrebe i verifikaciju važenja ponude tokom checkout-a;  
 - slanje važnih obaveštenja (npr. promene uslova, bezbednosne poruke);  
 - poboljšanje aplikacije i korisničkog iskustva;  
 - ispunjavanje zakonskih obaveza.
 
 ## 6. Čuvanje podataka
-Podatke čuvamo onoliko dugo koliko je potrebno za svrhe iz ove politike ili koliko to nalaže zakon. Podaci o nalozima se čuvaju do brisanja naloga ili zahtevа za brisanje.
+Podatke čuvamo onoliko dugo koliko je potrebno za svrhe iz ove politike ili koliko to nalaže zakon. Podaci o nalozima se čuvaju do brisanja naloga ili zahtevа za brisanje. Evidencije ponuda „cijena na upit” mogu se čuvati ograničeno radi bezbednosti, revizije i rešavanja sporova (npr. statusi iskorišćenih/isteklih ponuda do 30 dana), nakon čega se brišu ili anonimizuju u skladu sa politikama čuvanja.
 
 ## 7. Deljenje podataka
 Podatke možemo deliti sa:  
@@ -79,7 +81,7 @@ Veb sajt: https://www.azlp.me
 Određeni podaci su neophodni za sklapanje i izvršenje ugovora (kreiranje naloga i kupovinu). Ako ne dostavite obavezne podatke, možda nećemo moći da pružimo uslugu.
 
 ## 16. Automatizovano donošenje odluka
-Ne sprovodimo automatizovano donošenje odluka niti profilisanje koje proizvodi pravna dejstva ili vas na sličan način značajno pogađa.
+Aplikacija koristi određenu automatizaciju (npr. tehničko generisanje ponuda „cijena na upit” i proveru važenja ponude), ali ne sprovodimo automatizovano donošenje odluka niti profilisanje koje proizvodi pravna dejstva ili vas na sličan način značajno pogađa.
 
 ## 17. Izvori podataka koji nisu od korisnika
 Neke tehničke informacije dobijamo automatski od vašeg uređaja/aplikacije. U slučaju prijave putem trećih lica (npr. Google/OAuth), dobijamo identifikacione podatke od tih provajdera u meri potrebnoj za autentikaciju.
