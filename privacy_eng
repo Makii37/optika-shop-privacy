@@ -1,0 +1,91 @@
+# Privacy Policy
+
+Version: 1.0.2  
+Last Updated: 2026-04-30
+
+## 1. Introduction
+This Privacy Policy explains how “Jovović Shop” ("we", "us", "our") collects, uses, stores, and protects personal data of app users.
+
+## 2. Controller and Contact
+- Controller: Jovović Shop  
+- Data protection contact: gsx.studi@gmail.com
+
+## 3. Data We Collect
+- Account data: full name, email, phone number, address, city, postal code, profile photo (if provided).  
+- Authentication data: if you use email/password sign-in, your password is processed within Firebase Authentication (we do not store “plain text” passwords in the app).  
+- Technical data: device type, device/installation identifiers, error and performance logs; IP address may be recorded in service provider logs (e.g., Google/Firebase) as part of standard infrastructure logging.  
+- Purchase data: items, amounts, order statuses, order history, vouchers.  
+- “Price on request” offer data: product identifier, offered price, offer status and expiry, related conversation/message identifiers, and technical offer identifiers.  
+- Notifications: FCM token for push notifications.
+
+## 4. Legal Basis for Processing
+We process data based on:  
+- contract performance (Art. 6(1)(b) GDPR) – registration, purchases, delivery, support;  
+- legitimate interests (Art. 6(1)(f)) – service security and abuse prevention;  
+- consent (Art. 6(1)(a)) – marketing notifications, where applicable.
+
+## 5. Purposes of Processing
+- creating and maintaining user accounts;  
+- fulfilling orders and communicating order status;  
+- creating and managing automated offers for “price on request” products, including anti-abuse controls and offer-validity checks during checkout;  
+- sending important notices (e.g., terms changes, security messages);  
+- improving the app and user experience;  
+- complying with legal obligations.
+
+## 6. Data Retention
+We retain data as long as necessary for the purposes described in this Policy or as required by law. Account data is retained until the account is deleted or a deletion request is made. “Price on request” offer records may be retained for a limited period for security, audit, and dispute-resolution purposes (e.g., used/expired offer statuses up to 30 days), after which they are deleted or anonymized according to retention policies.
+
+## 7. Data Sharing
+We may share data with:  
+- service providers (e.g., hosting, notifications) under appropriate data processing agreements;  
+- authorities when required by law;  
+- in business transfers (merger, acquisition) with adequate safeguards.
+
+## 8. International Transfers
+Where data is transferred outside the EEA, we implement appropriate safeguards (e.g., EU Standard Contractual Clauses or adequacy decisions).
+
+## 9. Data Security
+We apply technical and organizational measures (encryption, access control, audit logs, security checks) to protect your data.
+
+## 10. Your Rights
+Under the GDPR you have the right to:  
+- access, rectification, and erasure;  
+- restriction of processing and objection;  
+- data portability;  
+- withdraw consent (where processing is based on consent).  
+Requests: gsx.studi@gmail.com
+
+## 11. Cookies and Similar Technologies
+The app may use device identifiers and similar technologies to provide functionality (e.g., notifications, performance). Details may appear in app settings or a separate cookie notice, where applicable.
+
+## 12. Changes to this Policy
+We may update this Policy. For material changes, we will notify you in the app or via email. “Last Updated” shows the effective date of the current version.
+
+## 13. Contact
+For privacy questions/requests: gsx.studi@gmail.com
+
+## 14. Right to lodge a complaint
+If you believe your personal data has been processed contrary to applicable law, you have the right to lodge a complaint with the supervisory authority in Montenegro:
+
+Agency for Personal Data Protection and Free Access to Information
+
+Address: Bulevar Svetog Petra Cetinjskog 147, 81000 Podgorica, Montenegro
+
+Phone: +382 20 232 123
+
+Email: azlp@t-com.me
+
+Website: https://www.azlp.me
+
+## 15. Obligation to provide data
+Certain data is necessary to conclude and perform the contract (account creation and purchases). If you do not provide required data, we may be unable to deliver the service.
+
+## 16. Automated decision-making
+The app uses limited automation (e.g., technical generation of “price on request” offers and offer-validity checks), but we do not engage in automated decision-making, including profiling, that produces legal effects or similarly significantly affects you.
+
+## 17. Sources of data not obtained from you
+Some technical information is received automatically from your device/app. When using third-party sign-in (e.g., Google/OAuth), we receive identification data from those providers to the extent necessary for authentication.
+
+—
+This Policy is for information purposes and does not constitute legal advice.
+
